@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kabir Pandey — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f8f8f6;
+      --surface: #ffffff;
+      --ink: #141413;
+      --muted: #575754;
+      --line: #e4e4e0;
+      --accent: #2563eb;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      padding: 48px 24px;
+    }
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 56px;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 32px;
+      margin-bottom: 36px;
+    }
+    .kicker {
+      font-size: 13px;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: 40px;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+    .summary {
+      color: var(--muted);
+      max-width: 68ch;
+      margin-bottom: 18px;
+      font-size: 15px;
+    }
+    .contact-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 20px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .contact-row a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding-bottom: 32px;
+      margin-bottom: 36px;
+      border-bottom: 1px solid var(--line);
+    }
+    .metric-label { font-size: 12px; color: var(--muted); }
+    .metric-value { font-family: "Bricolage Grotesque", sans-serif; font-size: 22px; font-weight: 700; margin: 4px 0; font-variant-numeric: tabular-nums; }
+    .metric-detail { font-size: 12px; color: var(--muted); }
+    section { margin-bottom: 40px; }
+    h2 {
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: 20px;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    .entry {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 24px;
+      margin-bottom: 22px;
+    }
+    .period {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+    .org { font-size: 13px; color: var(--muted); margin-top: 4px; }
+    h3 { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+    .entry p { font-size: 14px; color: var(--muted); margin-bottom: 8px; }
+    ul { padding-left: 18px; font-size: 14px; color: var(--ink); }
+    li { margin-bottom: 4px; }
+    .stack { font-family: "JetBrains Mono", monospace; font-size: 12px; color: var(--muted); margin-top: 8px; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; }
+    .skill-row { margin-bottom: 14px; }
+    .skill-cat { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+    .skill-items { font-size: 14px; color: var(--muted); }
+    @media (max-width: 720px) {
+      .page { padding: 28px; }
+      .entry, .two-col { grid-template-columns: 1fr; gap: 10px; }
+    }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .page { border: none; padding: 0; border-radius: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="kicker">Economics &amp; Statistics (DU) · BBA DBE (IIM Bangalore) · New Delhi, India</div>
+      <h1>Kabir Pandey</h1>
+      <p class="summary">Undergraduate student at Sri Venkateswara College, University of Delhi (B.A. Economics + Statistics), concurrently pursuing the BBA in Digital Business &amp; Entrepreneurship at IIM Bangalore. Combining quantitative curiosity, behavioral finance reading, and an obsession with product craft toward building an enduring consumer brand.</p>
+      <div class="contact-row">
+        <a href="mailto:kabirpandey2007@gmail.com">kabirpandey2007@gmail.com</a>
+        
+        
+        
+        
+      </div>
+    </header>
+
+    <div class="metrics">
+      <div>
+            <div class="metric-label">University of Delhi</div>
+            <div class="metric-value">Sri Venkateswara</div>
+            <div class="metric-detail">B.A. (Economics + Statistics)</div>
+          </div><div>
+            <div class="metric-label">Parallel Degree</div>
+            <div class="metric-value">IIM Bangalore</div>
+            <div class="metric-detail">BBA Digital Business &amp; Entrepreneurship</div>
+          </div><div>
+            <div class="metric-label">School Academics</div>
+            <div class="metric-value">84% · 77%</div>
+            <div class="metric-detail">Class X (84%) &amp; Class XII (77%) Boards</div>
+          </div><div>
+            <div class="metric-label">Core Life Mission</div>
+            <div class="metric-value">Consumer Brand</div>
+            <div class="metric-detail">Building quality-led products people trust</div>
+          </div>
+    </div>
+
+    <section>
+      <h2>01. Education</h2>
+      <article class="entry">
+            <div>
+              <div class="period">Current</div>
+              <div class="org">New Delhi, India</div>
+            </div>
+            <div>
+              <h3>B.A. (Economics + Statistics)</h3>
+              <p>Sri Venkateswara College, University of Delhi · Dual-Discipline Undergraduate Track</p>
+              <div class="stack">Microeconomic Theory · Macroeconomics · Statistical Methods &amp; Probability · Quantitative Market Reasoning</div>
+            </div>
+          </article><article class="entry">
+            <div>
+              <div class="period">Current</div>
+              <div class="org">Bengaluru · Online / Hybrid</div>
+            </div>
+            <div>
+              <h3>BBA in Digital Business &amp; Entrepreneurship (DBE)</h3>
+              <p>Indian Institute of Management Bangalore (IIMB) · Concurrent Management &amp; Venture Program</p>
+              <div class="stack">Digital Business Models · Entrepreneurship Foundations · Consumer Behavior · Business Strategy &amp; Unit Economics</div>
+            </div>
+          </article><article class="entry">
+            <div>
+              <div class="period">Completed</div>
+              <div class="org">India</div>
+            </div>
+            <div>
+              <h3>Senior Secondary (Class XII)</h3>
+              <p>Board Examination · 77% Aggregate</p>
+              
+            </div>
+          </article><article class="entry">
+            <div>
+              <div class="period">Completed</div>
+              <div class="org">India</div>
+            </div>
+            <div>
+              <h3>Secondary School (Class X)</h3>
+              <p>Board Examination · 84% Aggregate</p>
+              
+            </div>
+          </article>
+    </section>
+
+    
+
+    <section>
+      <h2>02. Brand Vision &amp; Case Studies</h2>
+      <article class="entry">
+            <div>
+              <div class="period">Vision Study · Brand Strategy</div>
+              <div class="org">Founder-in-Training</div>
+            </div>
+            <div>
+              <h3>Quality-First Consumer Brand Blueprint</h3>
+              <p>A living brand architecture framework exploring what makes everyday consumer products earn long-term loyalty through uncompromising material quality and honest positioning. Core north star guiding my academic studies, reading, and future venture roadmap.</p>
+              <div class="stack">Brand Positioning · Product Quality · Customer Trust</div>
+            </div>
+          </article><article class="entry">
+            <div>
+              <div class="period">Academic Study · Market &amp; Economics</div>
+              <div class="org">Economics &amp; Statistics Student</div>
+            </div>
+            <div>
+              <h3>Demand, Pricing &amp; Consumer Choice Notes</h3>
+              <p>Connecting undergraduate microeconomics and statistical reasoning at Sri Venkateswara College to real-world consumer purchasing decisions and price elasticity. Builds structured intuition for how consumers evaluate value versus price.</p>
+              <div class="stack">Microeconomics · Statistics · Pricing Intuition</div>
+            </div>
+          </article><article class="entry">
+            <div>
+              <div class="period">Reading Synthesis · Digital Business</div>
+              <div class="org">Independent Reader</div>
+            </div>
+            <div>
+              <h3>Compounding &amp; Judgment Playbook</h3>
+              <p>Distilling timeless principles on capital allocation, human psychology, and asymmetric leverage from foundational business and investing literature. Shapes a calm, long-horizon mindset before launching or scaling a consumer business.</p>
+              <div class="stack">Capital Discipline · Behavioral Psychology · Long-Term Games</div>
+            </div>
+          </article>
+    </section>
+
+    <section>
+      <h2>03. Books &amp; Mental Models</h2>
+      <article class="entry">
+            <div>
+              <div class="period">Benjamin Graham</div>
+              <div class="org">Margin of Safety &amp; Intrinsic Value</div>
+            </div>
+            <div>
+              <h3>The Intelligent Investor</h3>
+              <p>Taught me to focus on underlying fundamentals rather than short-term hype—a discipline just as vital when building a real consumer business as when evaluating investments.</p>
+            </div>
+          </article><article class="entry">
+            <div>
+              <div class="period">Morgan Housel</div>
+              <div class="org">Behavior, Patience &amp; Compounding</div>
+            </div>
+            <div>
+              <h3>The Psychology of Money</h3>
+              <p>Reinforced that financial and brand outcomes are shaped by human behavior, patience, and survival. Great consumer brands compound quietly through consistent trust.</p>
+            </div>
+          </article><article class="entry">
+            <div>
+              <div class="period">Eric Jorgenson</div>
+              <div class="org">Specific Knowledge &amp; Leverage</div>
+            </div>
+            <div>
+              <h3>The Almanack of Naval Ravikant</h3>
+              <p>Clarified the importance of building authentic, high-integrity products, playing long-term games with long-term people, and pairing curiosity with ownership.</p>
+            </div>
+          </article>
+    </section>
+
+    <div class="two-col">
+      <section>
+        <h2>04. Academic Foundations</h2>
+        <div class="skill-row">
+              <div class="skill-cat">Economics &amp; Quantitative Foundations</div>
+              <div class="skill-items">Microeconomic Reasoning · Macroeconomic Context · Statistical Foundations · Quantitative Problem Solving</div>
+            </div><div class="skill-row">
+              <div class="skill-cat">Digital Business &amp; Brand Focus</div>
+              <div class="skill-items">Consumer Brand Mindset · Digital Entrepreneurship (IIMB DBE) · Value &amp; Pricing Intuition · Long-Term Capital Thinking</div>
+            </div><div class="skill-row">
+              <div class="skill-cat">Intellectual Habits &amp; Strengths</div>
+              <div class="skill-items">First-Principles Reading · Behavioral Finance Literacy · Structured Synthesis · Curious &amp; Self-Driven Learner</div>
+            </div>
+      </section>
+
+      <section>
+        <h2>Milestones</h2>
+        <div class="skill-row">
+              <div class="skill-cat">Concurrent Dual-Degree Track (Ongoing)</div>
+              <div class="skill-items">University of Delhi &amp; IIM Bangalore — Balancing full-time B.A. (Economics + Statistics) at Sri Venkateswara College alongside IIM Bangalore’s BBA in Digital Business &amp; Entrepreneurship.</div>
+            </div><div class="skill-row">
+              <div class="skill-cat">Academic Board Milestones (Completed)</div>
+              <div class="skill-items">Secondary &amp; Senior Secondary — Achieved 84% in Class X and 77% in Class XII board examinations.</div>
+            </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
